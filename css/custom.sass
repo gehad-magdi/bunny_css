@@ -1,0 +1,187 @@
+$base-color: #ffbdbd
+$fram-color: #795548
+
+
+body
+    width: 100%
+    height: 100%
+    .RabitCanvas
+        width: 80%
+        margin: auto
+        height: 600px
+        padding: 20px
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        .RabitHead
+            background: $base-color
+            border: 1px solid $fram-color
+            width: 200px
+            height: 200px
+            border-bottom-right-radius: 40%
+            border-bottom-left-radius: 40%
+            border-top-left-radius: 50%
+            border-top-right-radius: 50%
+            position: relative
+            .Ear
+                width: 40px
+                height: 120px
+                background: $base-color
+                display: block
+                border: 1px solid $fram-color
+                border-radius: 50%
+                position: absolute
+                top: -35%
+            .EarLeft
+                left: 0
+                transform: rotate(-10deg)
+            .EarRight
+                left: 75%
+                transform: rotate(10deg)
+            .hedding
+                width: 50px
+                height: 60px
+                position: absolute
+                top: 12px
+                background: $base-color
+                z-index: 0
+            .heddingLeft
+                left: 11px
+                border-top-left-radius: 80px
+            .heddingRight
+                left: 68%
+                border-top-right-radius: 80px
+            .Eye
+                position: absolute
+                top: 30%
+                background: $fram-color
+                width: 25px
+                height: 35px
+                border-radius: 50%
+                &::after
+                    content: ''
+                    position: absolute
+                    top: 9px
+                    
+                    width: 10px
+                    height: 15px
+                    background: #fff
+                    border-radius: 50%
+            .EyeLeft
+                left: 25%
+                &::after
+                    left: 5px
+            .EyeRight
+                left: 65%
+                &::after
+                    left: 5px
+                
+            .Nose
+                width: 10px
+                height: 10px
+                background: $base-color
+                position: absolute
+                top: 60%
+                left: 48%
+                border: 3px solid $fram-color
+                transform: rotate(0deg)
+                border-radius: 100%
+                border-bottom-left-radius: 50%
+                border-bottom-right-radius: 50%
+            .Mouth
+                width: 25px
+                height: 25px
+                background: transparent
+                position: absolute
+                top: 65%
+                left: 46%
+                border-bottom: 5px solid $fram-color
+                border-radius: 40%
+                transform: rotate(0deg)
+            .heddingHead
+                width: 85px
+                height: 15px
+                position: absolute
+                top: 95%
+                background: $base-color
+                left: 29%
+    .RabitBody
+            width: 200px
+            height: 250px
+            background: $base-color
+            border: 1px solid $fram-color
+            border-radius: 45%
+            border-bottom-left-radius: 35%
+            border-bottom-right-radius: 35%
+            position: relative
+            z-index: -1
+            transform: translate(0px, -5%)
+            display: flex
+            justify-content: center
+            align-items: center
+            .Arm
+                position: absolute
+                top: 0
+                background: $base-color
+                height: 55px
+                width: 40px
+                border-radius: 45%
+                border: 1px solid $fram-color
+            .ArmLeft
+                left: 0
+                transform: rotate(-20deg)
+            .ArmRight
+                left: 75%
+                transform: rotate(20deg)
+            .hedding
+                width: 40px
+                height: 40px
+                position: absolute
+                background: $base-color
+            .ArmLeftHedding
+                left: 15px
+                top: 20px
+            .ArmRightHedding
+                left: 72%
+                top: 20px
+            .Leg
+                position: absolute
+                top: 80%
+                background: $base-color
+                height: 55px
+                width: 40px
+                border-radius: 45%
+                border: 1px solid $fram-color
+            .LegLeft
+                left: 0
+            .LegRight
+                left: 80%
+            .LegLeftHedding
+                top: 77%
+                left: 4%
+            .LegRightHedding
+                top: 77%
+                left: 75%
+            .Stomeck
+                width: 50%
+                height: 50%
+                background: $fram-color
+                border-radius: 45%
+                border-bottom-left-radius: 35%
+                border-bottom-right-radius: 35%
+//When the rabbit listens to his ear
+    //width: 40px;
+    //height: 70px
+    //background: #ffbdbd
+    //display: block
+    //border: 1px solid #795548
+    //border-radius: 50%
+    //position: absolute
+    //top: -15%
+    //border-bottom-left-radius: 100%
+    //left: 70%
+    //border-top: 0
+    //transform: rotate(25deg)
+    //z-index: -1*/
+    

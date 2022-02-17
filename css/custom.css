@@ -1,0 +1,197 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+body .RabitCanvas {
+  width: 80%;
+  margin: auto;
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .RabitCanvas .RabitHead {
+  background: #ffbdbd;
+  border: 1px solid #795548;
+  width: 200px;
+  height: 200px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: relative;
+}
+body .RabitCanvas .RabitHead .Ear {
+  width: 40px;
+  height: 120px;
+  background: #ffbdbd;
+  display: block;
+  border: 1px solid #795548;
+  border-radius: 50%;
+  position: absolute;
+  top: -35%;
+}
+body .RabitCanvas .RabitHead .EarLeft {
+  left: 0;
+  transform: rotate(-10deg);
+}
+body .RabitCanvas .RabitHead .EarRight {
+  left: 75%;
+  transform: rotate(10deg);
+}
+body .RabitCanvas .RabitHead .hedding {
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: 12px;
+  background: #ffbdbd;
+  z-index: 0;
+}
+body .RabitCanvas .RabitHead .heddingLeft {
+  left: 11px;
+  border-top-left-radius: 80px;
+}
+body .RabitCanvas .RabitHead .heddingRight {
+  left: 68%;
+  border-top-right-radius: 80px;
+}
+body .RabitCanvas .RabitHead .Eye {
+  position: absolute;
+  top: 30%;
+  background: #795548;
+  width: 25px;
+  height: 35px;
+  border-radius: 50%;
+}
+body .RabitCanvas .RabitHead .Eye::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  width: 10px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+}
+body .RabitCanvas .RabitHead .EyeLeft {
+  left: 25%;
+}
+body .RabitCanvas .RabitHead .EyeLeft::after {
+  left: 5px;
+}
+body .RabitCanvas .RabitHead .EyeRight {
+  left: 65%;
+}
+body .RabitCanvas .RabitHead .EyeRight::after {
+  left: 5px;
+}
+body .RabitCanvas .RabitHead .Nose {
+  width: 10px;
+  height: 10px;
+  background: #ffbdbd;
+  position: absolute;
+  top: 60%;
+  left: 48%;
+  border: 3px solid #795548;
+  transform: rotate(0deg);
+  border-radius: 100%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+body .RabitCanvas .RabitHead .Mouth {
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  position: absolute;
+  top: 65%;
+  left: 46%;
+  border-bottom: 5px solid #795548;
+  border-radius: 40%;
+  transform: rotate(0deg);
+}
+body .RabitCanvas .RabitHead .heddingHead {
+  width: 85px;
+  height: 15px;
+  position: absolute;
+  top: 95%;
+  background: #ffbdbd;
+  left: 29%;
+}
+body .RabitBody {
+  width: 200px;
+  height: 250px;
+  background: #ffbdbd;
+  border: 1px solid #795548;
+  border-radius: 45%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  position: relative;
+  z-index: -1;
+  transform: translate(0px, -5%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .RabitBody .Arm {
+  position: absolute;
+  top: 0;
+  background: #ffbdbd;
+  height: 55px;
+  width: 40px;
+  border-radius: 45%;
+  border: 1px solid #795548;
+}
+body .RabitBody .ArmLeft {
+  left: 0;
+  transform: rotate(-20deg);
+}
+body .RabitBody .ArmRight {
+  left: 75%;
+  transform: rotate(20deg);
+}
+body .RabitBody .hedding {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background: #ffbdbd;
+}
+body .RabitBody .ArmLeftHedding {
+  left: 15px;
+  top: 20px;
+}
+body .RabitBody .ArmRightHedding {
+  left: 72%;
+  top: 20px;
+}
+body .RabitBody .Leg {
+  position: absolute;
+  top: 80%;
+  background: #ffbdbd;
+  height: 55px;
+  width: 40px;
+  border-radius: 45%;
+  border: 1px solid #795548;
+}
+body .RabitBody .LegLeft {
+  left: 0;
+}
+body .RabitBody .LegRight {
+  left: 80%;
+}
+body .RabitBody .LegLeftHedding {
+  top: 77%;
+  left: 4%;
+}
+body .RabitBody .LegRightHedding {
+  top: 77%;
+  left: 75%;
+}
+body .RabitBody .Stomeck {
+  width: 50%;
+  height: 50%;
+  background: #795548;
+  border-radius: 45%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+}/*# sourceMappingURL=custom.css.map */
