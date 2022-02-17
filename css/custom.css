@@ -13,7 +13,7 @@ body .RabitCanvas {
   flex-direction: column;
 }
 body .RabitCanvas .RabitHead {
-  background: #ffbdbd;
+  background: #faeaea;
   border: 1px solid #795548;
   width: 200px;
   height: 200px;
@@ -26,7 +26,7 @@ body .RabitCanvas .RabitHead {
 body .RabitCanvas .RabitHead .Ear {
   width: 40px;
   height: 120px;
-  background: #ffbdbd;
+  background: #faeaea;
   display: block;
   border: 1px solid #795548;
   border-radius: 50%;
@@ -46,7 +46,7 @@ body .RabitCanvas .RabitHead .hedding {
   height: 60px;
   position: absolute;
   top: 12px;
-  background: #ffbdbd;
+  background: #faeaea;
   z-index: 0;
 }
 body .RabitCanvas .RabitHead .heddingLeft {
@@ -89,7 +89,7 @@ body .RabitCanvas .RabitHead .EyeRight::after {
 body .RabitCanvas .RabitHead .Nose {
   width: 10px;
   height: 10px;
-  background: #ffbdbd;
+  background: #faeaea;
   position: absolute;
   top: 60%;
   left: 48%;
@@ -115,13 +115,13 @@ body .RabitCanvas .RabitHead .heddingHead {
   height: 15px;
   position: absolute;
   top: 95%;
-  background: #ffbdbd;
+  background: #faeaea;
   left: 29%;
 }
 body .RabitBody {
   width: 200px;
   height: 250px;
-  background: #ffbdbd;
+  background: #faeaea;
   border: 1px solid #795548;
   border-radius: 45%;
   border-bottom-left-radius: 35%;
@@ -136,7 +136,7 @@ body .RabitBody {
 body .RabitBody .Arm {
   position: absolute;
   top: 0;
-  background: #ffbdbd;
+  background: #faeaea;
   height: 55px;
   width: 40px;
   border-radius: 45%;
@@ -154,7 +154,7 @@ body .RabitBody .hedding {
   width: 40px;
   height: 40px;
   position: absolute;
-  background: #ffbdbd;
+  background: #faeaea;
 }
 body .RabitBody .ArmLeftHedding {
   left: 15px;
@@ -167,7 +167,7 @@ body .RabitBody .ArmRightHedding {
 body .RabitBody .Leg {
   position: absolute;
   top: 80%;
-  background: #ffbdbd;
+  background: #faeaea;
   height: 55px;
   width: 40px;
   border-radius: 45%;
